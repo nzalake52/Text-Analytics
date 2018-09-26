@@ -8,7 +8,7 @@ from keras.preprocessing.text import Tokenizer
 from keras.preprocessing.sequence import pad_sequences
 
 #Implementation of lstm for sentiment analysis using maxplooing and convolution for feature selection
-dataset = pd.read_csv("D:\\Data Science\\Semester 3\\SWTA\\fake_or_real_news.csv")
+dataset = pd.read_csv("fake_or_real_news.csv")
 
 list(dataset)
 

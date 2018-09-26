@@ -13,3 +13,6 @@ Thus for each article the size of vector is same which is then multipled with wo
 So the output for an article is the vector of shape (1000, 150) given input to RNN.
 
 RNN is implemented using KERAS implementation of Tensorflow.
+Feel free to change the input data to any other text.
+
+Instead of using Word2Vec you can also use any other pre trained models like GloVe for embedding matrix.
